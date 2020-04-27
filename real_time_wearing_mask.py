@@ -53,7 +53,7 @@ def detect_mouth(img,detector,predictor):
     return x_min, x_max, y_min, y_max, size
 
 
-def Dlib_face_detection():
+def Remenber_the_mask():
     # ----var
     frame_count = 0
     FPS = "Initialing"
@@ -135,4 +135,4 @@ def Dlib_face_detection():
 
 
 if __name__ == "__main__":
-    Dlib_face_detection()
+    Remenber_the_mask()
